@@ -1,11 +1,11 @@
 from covid import Covid 
 
 covid = Covid() 
-india = covid.get_status_by_country_name("india") 
+india = covid.get_status_by_country_name("France") 
 
 data ={ 
-    key:india[key] 
-    for key in india.keys() and {'confirmed',  
+    key:France[key] 
+    for key in France.keys() and {'confirmed',  
                                  'active', 
                                  'deaths', 
                                  'recovered'} 
